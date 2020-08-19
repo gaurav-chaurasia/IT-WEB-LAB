@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow: auto;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+section {
+    min-height: 100vh;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+/* table {
+    border: 1px solid #000000;
+} */
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #d4d4d4;
+}
+th, td {
+  padding: 30px 50px;
+  text-align: left;
+}
+.center {
+    text-align: center;
+}
+
+.home {
+    position: fixed;
+    background-color: #000000;
+    bottom: 5%;
+    right: 5%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+    transform-origin: center;
+}
+/* .home__btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(50%);
+} */
+.home__btn svg {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    z-index: 999;
+    bottom: 5%;
+    right: 5%;
+    transform: translate(-50%, -50%);
+}
+.home:hover {
+    width: 83px;
+    height: 83px;
+    transition: 0.3s ease-in-out;
+    transform-origin: center;
+}
+
+#main {
+    padding-top: 20%;
+    padding-left: 10%;
+    font-size: 2rem;
+}
+
+#main a {
+    border: 1px solid #000000;
+    color: #000000;
+    width: 202px;
+    margin-top: 50px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 1.5rem;
+}
+
+#latest {
+    background-color: #f6f6f6;
+}
+#latest h2 {
+    text-align: center;
+    padding-top: 50px;
+}
+.latest__news {
+    margin: 5% 20% 5% 10%;
+}
+#tech {
+    background-color: #b4b4b4;
+    padding: 100px 0;
+}
+#data h3 {
+    padding: 50px 0;
+}
+.contact {
+    padding-top: 13%;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.contact form a{
+    color: #ffffff;
+    background-color: #000000;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;
+}

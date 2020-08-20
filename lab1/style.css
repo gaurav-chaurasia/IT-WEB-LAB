@@ -28,7 +28,8 @@ table {
 }
 
 table, th, td {
-  border: 1px solid #d4d4d4;
+  border-top: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
 }
 th, td {
   padding: 30px 50px;
@@ -99,8 +100,14 @@ th, td {
     margin: 5% 20% 5% 10%;
 }
 #tech {
-    background-color: #b4b4b4;
     padding: 100px 0;
+}
+
+iframe {
+    box-shadow: 0 5px 35px 0 rgba(0,0,0,0.1);
+}
+#data {
+    background-color: #f6f6f6;
 }
 #data h3 {
     padding: 50px 0;

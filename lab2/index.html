@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../lab2/css/style.css">
+    <link rel="stylesheet" href="../lab2/css/queries.css">
+    <link rel="stylesheet" href="../lab2/fonts/css2.css">
+    <title>News India</title>
+</head>
+<body>
+    <div class="home">
+        <a class="home__btn" href="#main">
+            <svg width='512' height='512' viewBox='0 0 512 512'>
+                <path
+                    d='M80,212V448a16,16,0,0,0,16,16h96V328a24,24,0,0,1,24-24h80a24,24,0,0,1,24,24V464h96a16,16,0,0,0,16-16V212'
+                    style='fill: #ffffff;stroke: #ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px' />
+                <path d='M480,256,266.89,52c-5-5.28-16.69-5.34-21.78,0L32,256'
+                    style='fill: #ffffff;stroke: #ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px' />
+                <polyline points='400 179 400 64 352 64 352 133'
+                    style='fill: #ffffff;stroke: #ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px' />
+            </svg>
+        </a>
+    </div>
+    <section id="main">
+        <h1>Hey there, we have got all the latest News </h1>
+        <p>this is paragraph <em>
+                                <small>above large element is H1 </small>
+                            </em>
+        </p>   
+    </section>
+    <nav class="nav">
+        <a href="#latest">latestNews</a>
+        <a href="#data">data</a>
+        <a href="#data">trending</a>
+        <a href="#tech">tech</a>
+        <a href="#data">business</a>
+        <a href="#contact">contact</a>
+    </nav>
+    <section id="latest">
+        <h2>All the latest News are listed below(this is H2)</h2>
+        <div class="latest__news">
+            <h4>Coronavirus Live Updates:</h4>
+            <p>India Conducts Nearly 9-Lakh COVID-19 Tests In A Single Day</p>
+            <a href="https://www.ndtv.com/india-news/coronavirus-live-updates-india-conducts-nearly-9-lakh-covid-19-tests-in-a-single-day-2281641">
+                see more
+            </a>
+        </div>
+        <div class="latest__news">
+            <h4>Sensex, Nifty Likely To Open On A Positive Note</h4>
+            <p>
+                Asian equities mostly moved higher on Wednesday after a strong Wall Street session in which the S&P 500 hit an all-time
+                high.
+            </p>
+            <a
+                href="https://www.ndtv.com/business/s-p-bse-sensex-nse-nifty-50-live-covid-19-updates-sensex-nifty-likely-to-open-on-a-positive-note-2281660">
+                see more
+            </a>
+        </div>
+        <div class="latest__news">
+            <h4>RBI Releases Draft Framework For Self-Regulatory Body For Payment System Operators</h4>
+            <p>The self-regulatory body will observe best practices on security, customer protection and competitiveness</p>
+            <a
+                href="https://www.ndtv.com/business/rbi-releases-draft-framework-for-self-regulatory-body-for-payment-system-operators-2281550">
+                see more
+            </a>
+        </div>
+    </section>
+    <div id="tech" class="center">
+        <iframe src="https://www.youtube.com/embed/DcKEPl-MpLA" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/oqmcvxzbRJs" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <section id="data">
+        <h3 class="center">Coronavirus Outbreak | Live Statistics</h3>
+        <div class="table">
+            <table>
+                <tr>
+                    <th>STATE</th>
+                    <th>CASES</th>
+                    <th>ACTIVE</th>
+                    <th>RECOVERD</th>
+                    <th>DEATHS</th>
+                </tr>
+                <tr>
+                    <td>Maharashtra</td>
+                    <td>6,04,358</td>
+                    <td>1,55,579</td>
+                    <td>4,28,514</td>
+                    <td>20,265</td>
+                </tr>
+                <tr>
+                    <td>Maharashtra</td>
+                    <td>6,04,358</td>
+                    <td>1,55,579</td>
+                    <td>4,28,514</td>
+                    <td>20,265</td>
+                </tr>
+                <tr>
+                    <td>Uttar Pradesh</td>
+                    <td>1,58,216</td>
+                    <td>50,893</td>
+                    <td>1,04,808</td>
+                    <td>2,515</td>
+                </tr>
+                <tr>
+                    <td>Tamil Nadu</td>
+                    <td>3,43,945</td>
+                    <td>54,122</td>
+                    <td>2,83,937</td>
+                    <td>5,886</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h3 class="center">Subscribe to get latest news first</h3>
+        <form action="POST">
+            <label for="name">Name</label>
+            <input type="text">
+            <label for="email">Email</label>
+            <input type="email">
+            <label for="message">Feedback</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <a href="#">submit</a>
+        </form>
+    </section>
+</body>
+</html>

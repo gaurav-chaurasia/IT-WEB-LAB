@@ -1,7 +1,7 @@
 /* Big tablet to 1200px (widths smaller taht the 1140px row) */
 @media only screen and (max-width: 1200px) {
     .nav {
-        padding-left: 6%;
+        padding-left: 15%;
     }
     .nav a {
         font-size: 1.4rem;
@@ -24,6 +24,9 @@
     }
     th, td {
         padding: 15px 30px;
+    }
+    .show {
+        opacity: 1;
     }
 }
 

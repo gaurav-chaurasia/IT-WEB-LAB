@@ -1,0 +1,11 @@
+@keyframes move-left-right {
+    0% {
+        transform: translateX(25%) rotate(90deg);
+    }
+    50% {
+        transform: translateX(0%) rotate(90deg);
+    }
+    100% {
+        transform: translateX(25%) rotate(90deg);
+    }
+}

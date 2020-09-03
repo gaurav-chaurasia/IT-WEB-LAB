@@ -113,6 +113,30 @@ th, td {
   display: none;
 }
 
+.show {
+    position: fixed;
+    pointer-events: none;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.3));
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-items: center;
+    transition: 0.5s ease-in-out;
+}
+.show svg {
+    width: 50px;
+    height: 100%;
+    margin-left: 10px !important;
+    animation: move-left-right;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin: 0 auto;
+}
+
 .nav a {
     border: 1px solid #000000;
     color: #000000;

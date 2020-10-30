@@ -1,0 +1,4 @@
+all the code is available on github : {https://github.com/gaurav-chaurasia/IT-WEB-LAB}
+This is lab-1 task (News website)   
+    basic styling is used not so fancy as this is a minor task 
+    it has three sections each with min-height 100vh which 100% of view  
